@@ -72,9 +72,31 @@ class Solution {
         vector<int> m_nums;
 };
 
+
+class Solution1 {
+    public:
+        int maxProduct(vector<int>& nums) {
+            int n = nums.size();
+            int minProd = 1;
+            int maxProd = 1;
+            int bestProd = numeric_limits<int>::min();
+
+            for (int i = 0; i < n; i++) {
+                int oldMin = minProd;
+                int oldMax = maxProd;
+
+                minProd = min(min(oldMax * nums[i], minProd * nums[i]), nums[i]);
+                maxProd = max(max(oldMin * nums[i], maxProd * nums[i]), nums[i]);
+                bestProd = max(bestProd, maxProd);
+            }
+
+            return bestProd;
+        }
+};
+
 int main() {
 
-    vector<int> nums{-2,3,-4};
+    vector<int> nums{-2, 0, -1, 1, -2};
 
     Solution solution{};
     int max = solution.maxProduct(nums);
