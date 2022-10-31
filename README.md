@@ -8,9 +8,11 @@ The files are numbered according to the problem number on Leetcode. Sometimes, m
 
 A summary of the type of programming problems and their difficulty rating is shown below:
 
-| Type                     | No.     | Name                          | Difficulty |
-|--------------------------|---------|-------------------------------|------------|
-| Dynamic Programming      | 0005    | Longest Palindromic Substring | **Medium** |
-| Dynamic Programming      | 0010    | Regular Expression Matching   | **Hard**   |
-| Dynamic Programming      | 0022    | Generate Parentheses          | **Medium** |
-| Dynamic Programming      | 0032    | Longest Valid Parentheses     | **Medium** |
+| Type                     | No.     | Name                                | Difficulty |
+|--------------------------|---------|-------------------------------------|------------|
+| Dynamic Programming      | 0005    | Longest Palindromic Substring       | **Medium** |
+| Dynamic Programming      | 0010    | Regular Expression Matching         | **Hard**   |
+| Dynamic Programming      | 0022    | Generate Parentheses                | **Medium** |
+| Dynamic Programming      | 0032    | Longest Valid Parentheses           | **Medium** |
+| Dynamic Programming      | 0121    | Best Time to Buy and Sell Stock     | **Easy**   |
+| Dynamic Programming      | 0139    | Word Break                          | **Medium** |
